@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": "src"
+  },
+  "include": [
+    "src/**/*",
+    "../layout",
+    "../RegisterEmployee.jsx",
+    "../AppRoutes.jsx",
+    "../ProtectedRouteAdmin.jsx",
+    "../expenses",
+    "../rooms",
+    "../hotel-management-api/utils/email.js"
+  ],
+  "exclude": ["node_modules"]
+}
