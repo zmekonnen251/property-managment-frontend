@@ -1,6 +1,6 @@
-# Hotel Management Website Client
+# Property Management Website Client
 
-This project is the **frontend** part of a comprehensive Hotel Management System, designed to streamline and optimize property management operations. Built with React.js and a rich ecosystem of tools and libraries, this client application provides features such as room reservations, property management, reporting, and more, with a user-friendly interface.
+This project is the **frontend** part of a comprehensive Property Management System, designed to streamline and optimize property management operations. Built with React.js and a rich ecosystem of tools and libraries, this client application provides features such as room reservations, property management, reporting, and more, with a user-friendly interface.
 
 ## Features
 
@@ -30,12 +30,12 @@ To run this project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/hotel-managment-website-client.git
+   git clone https://github.com/yourusername/Property-managment-website-client.git
     ```
 2. **Navigate to the project directory**:
 
    ```bash
-   cd hotel-managment-website-client
+   cd Property-managment-website-client
    ```
 3. **Install the dependencies**:
 
@@ -59,7 +59,7 @@ To run this project locally:
 ## Folder Structure
 
 ```bash
-hotel-managment-website-client/
+Property-managment-website-client/
 ├── public/                 # Public assets like index.html
 ├── src/
 │   ├── components/         # Reusable React components
