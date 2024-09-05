@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Hotel Management Website Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the **frontend** part of a comprehensive Hotel Management System, designed to streamline and optimize property management operations. Built with React.js and a rich ecosystem of tools and libraries, this client application provides features such as room reservations, property management, reporting, and more, with a user-friendly interface.
+
+## Features
+
+- **Room Reservations**: Book and manage room reservations efficiently.
+- **Multiple Property Management**: Manage multiple properties from a single platform.
+- **Comprehensive Reporting**: Generate detailed reports on property operations, reservations, and more.
+- **Role-Based Authentication**: Ensure security with role-specific access to different features.
+- **Scheduling**: Schedule and manage tasks for property management seamlessly.
+- **Responsive Design**: Built with Material-UI to ensure a modern and responsive user experience.
+- **Data-Driven Insights**: Leverage data to make informed decisions through integrated charts and graphs.
+
+## Tech Stack
+
+- **React.js**: Main frontend library.
+- **Material-UI**: For responsive UI components and styling.
+- **Redux Toolkit**: For state management.
+- **Axios**: For handling API requests.
+- **Framer Motion**: For smooth animations.
+- **React Hook Form & Yup**: For form management and validation.
+- **ApexCharts**: For interactive charts and reporting.
+- **JS PDF & AutoTable**: For generating PDF reports and invoices.
+
+## Installation
+
+To run this project locally:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/hotel-managment-website-client.git
+    ```
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd hotel-managment-website-client
+   ```
+3. **Install the dependencies**:
+
+   ```bash
+    npm install
+    ```
+4. **Start the development server**:
+
+   ```bash
+   npm start
+   ```
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.**
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start`: Starts the development server.
+- `npm build`: Builds the app for production.
+- `npm test`: Runs the test suite.
+- `npm lint`: Lints the codebase and fixes any issues using ESLint.
 
-### `npm start`
+## Folder Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+hotel-managment-website-client/
+├── public/                 # Public assets like index.html
+├── src/
+│   ├── components/         # Reusable React components
+│   ├── pages/              # Different page views (e.g., Dashboard, Reservations)
+│   ├── services/           # API services (Axios requests)
+│   ├── state/              # Redux store, slices, and actions
+│   ├── utils/              # Helper functions and utilities
+│   └── App.js              # Main application component
+└── package.json            # Project dependencies and scripts
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Dependencies
 
-### `npm test`
+- **React.js**: ^18.2.0
+- **Material-UI**: ^5.14.0
+- **React Router DOM**: ^6.14.1
+- **Redux Toolkit**: ^1.9.5
+- **Axios**: ^1.4.0
+- **Framer Motion**: ^6.3.16
+- **ApexCharts**: ^3.35.3
+- **JS PDF & AutoTable**: For generating PDFs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Testing
 
-### `npm run build`
+This project uses React Testing Library for unit and component tests. To run tests:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Code Quality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **ESLint**: Linting is enforced with ESLint using Airbnb's style guide.
+- **Prettier**: Code formatting is handled by Prettier for consistent style.
 
-### `npm run eject`
+To run lint checks:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run lint
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT [License](LICENSE).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
